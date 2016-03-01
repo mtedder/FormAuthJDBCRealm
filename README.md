@@ -34,7 +34,7 @@ Steps explaining how this project was created and configured
   	</form-login-config>
   </login-config>
   
-  6. Make a backup copy of your server's server.xml file. Add the follwing code to your Server's server.xml file in the "apache-tomcat-8.0.32 at localhost-config" folder of the Eclipse Servers folder. Change the user and password parameters to the values for you MySQL database
+  6. Make a backup copy of your server's server.xml file. Add the follwing code to your Server's server.xml file  (if this code already exist in your server.xml you only need to modify the settings) in the "apache-tomcat-8.0.32 at localhost-config" folder of the Eclipse Servers folder. Change the user and password parameters to the values for you MySQL database
   	<Realm className="org.apache.catalina.realm.JDBCRealm"
         		driverName="com.mysql.jdbc.Driver"       
      		connectionURL="jdbc:mysql://localhost:3306/dbrealm?user=XXX&amp;password=XXX"      					
